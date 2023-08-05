@@ -1,0 +1,16 @@
+<div>
+
+  <h1>Resultados para <b>{{this.search}}</b> </h1>
+
+      {{#each artists}}
+        <h4>{{this.name}}</h4>
+        <img src="{{this.images.[0].url}}" alt="caratula" width="300px">
+        
+        <br>
+        
+        <a href="/albums/{{this.id}}">
+        <button>View Albums</button>
+        </a>
+
+        {{/each}}
+</div>
