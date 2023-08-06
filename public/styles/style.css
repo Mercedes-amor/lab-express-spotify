@@ -1,0 +1,89 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+  /* INDEX- HOME PAGE*/
+
+.homeDiv {
+  width: 90%;
+  height: 80vh;
+  background-image: url("../images/spotify-background.jpeg");
+  background-size: cover;
+  display: flex;
+}
+
+.homeSubDiv {
+  background-color: rgba(240, 248, 255, 0.722);
+  width: 50%;
+  height: 25%;
+  margin-left: 25%;
+  margin-top: 25%;
+  text-align: center;
+}
+
+.formDiv {
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+}
+
+.formDiv input{
+  flex-direction: column;
+  align-items: center;
+  height: 20px;
+  width: 300px;
+  border-radius: 5px;
+  }
+
+.formDiv button {
+  background-color: rgb(219, 75, 75);
+  color: white;
+  height: 25px;
+  border-radius: 7px;
+}
+
+
+  /* ARTIST-SEARCH y ALBUM PAGES*/
+
+.containerDiv {
+margin-top: 50px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(97, 96, 96);
+  color: white;
+  width: 300px;
+  margin: 0px 25px 25px 0px;
+  text-align: center;
+}
+
+.card button{
+  background-color: rgb(219, 75, 75);
+  color: white;
+  height: 25px;
+  border-radius: 7px;
+}
+
+
+  /* TRACK PAGE*/
+
+.principalDiv {
+  background-color: rgb(91, 91, 91);    
+}
+
+.principalDiv h1{
+  color: white; 
+  padding-top: 15px;  
+  padding-left: 15px;
+}
+
+.trackCard {
+  background-color: rgb(189, 185, 185);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}

@@ -27,7 +27,7 @@ app.use(express.static(__dirname + '/public'));
 
 
 // Start handling routes here
-const index = require('./routes/index.js');
+const index = require('./routes/index.routes.js');
 app.use('/', index);
 
 
